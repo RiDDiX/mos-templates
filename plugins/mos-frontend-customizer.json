@@ -8,9 +8,8 @@
   "support": "https://github.com/RiDDiX/mos-frontend-customizer/issues",
   "donation": "https://riddix.de",
   "categories": [
-    "Customization",
-    "Themes",
-    "UI"
+    "System",
+    "Utilities"
   ],
   "install": {
     "type": "script",

@@ -1,5 +1,5 @@
 {
-  "name": "MOS FileBrowser",
+   "name": "MOS FileBrowser",
   "description": "Browse, edit, and manage files on your MOS system directly from the web interface",
   "category": ["Utilities"],
   "repository": "https://github.com/RiDDiX/mos-file-browser",

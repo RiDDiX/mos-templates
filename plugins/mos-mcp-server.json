@@ -1,7 +1,7 @@
 {
   "name": "MCP Server",
   "description": "Model Context Protocol server for AI assistant integration with MOS",
-  "category": [ "System", "Tools" ],
+  "category": [ "AI", "Utilities" ],
   "repository": "https://github.com/RiDDiX/mos-mcp-server-plugin",
   "architecture": [ "amd64", "arm64" ],
   "icon": "https://raw.githubusercontent.com/RiDDiX/mos-mcp-server-plugin/master/icon.svg",

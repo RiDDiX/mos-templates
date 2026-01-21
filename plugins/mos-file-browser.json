@@ -1,16 +1,12 @@
 {
-  "name": "mos-file-browser",
-  "displayName": "MOS FileBrowser",
+  "name": "MOS FileBrowser",
   "description": "Browse, edit, and manage files on your MOS system directly from the web interface",
-  "icon": "mdi-folder-open",
-  "author": "RiDDiX",
-  "homepage": "https://github.com/RiDDiX/mos-file-browser",
+  "category": ["Utilities"],
   "repository": "https://github.com/RiDDiX/mos-file-browser",
-  "category": "utilities",
-  "tags": ["files", "browser", "editor", "management"],
-  "minMosVersion": "1.0.0",
-  "releases": {
-    "amd64": "https://github.com/RiDDiX/mos-file-browser/releases/latest/download/mos-file-browser-{version}-amd64.deb",
-    "arm64": "https://github.com/RiDDiX/mos-file-browser/releases/latest/download/mos-file-browser-{version}-arm64.deb"
-  }
+  "architecture": ["amd64", "arm64"],
+  "icon": "https://raw.githubusercontent.com/RiDDiX/mos-file-browser/master/icon.png",
+  "author": "RiDDiX",
+  "homepage": "https://riddix.de",
+  "support": "https://github.com/RiDDiX/mos-file-browser/issues",
+  "donate": ""
 }

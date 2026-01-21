@@ -1,0 +1,23 @@
+{
+  "name": "Frontend Customizer",
+  "description": "Advanced frontend customizer with themes, branding & layout options for MOS",
+  "version": "2.2.0",
+  "author": "RiDDiX",
+  "icon": "https://raw.githubusercontent.com/RiDDiX/mos-frontend-customizer/main/icon.png",
+  "repository": "https://github.com/RiDDiX/mos-frontend-customizer",
+  "support": "https://github.com/RiDDiX/mos-frontend-customizer/issues",
+  "donation": "https://riddix.de",
+  "categories": [
+    "Customization",
+    "Themes",
+    "UI"
+  ],
+  "install": {
+    "type": "script",
+    "url": "https://raw.githubusercontent.com/RiDDiX/mos-frontend-customizer/main/install.sh"
+  },
+  "uninstall": {
+    "type": "script",
+    "url": "https://raw.githubusercontent.com/RiDDiX/mos-frontend-customizer/main/uninstall.sh"
+  }
+}

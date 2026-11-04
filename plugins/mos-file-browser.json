@@ -1,12 +1,13 @@
 {
-   "name": "MOS FileBrowser",
+  "name": "MOS FileBrowser",
   "description": "Browse, edit, and manage files on your MOS system directly from the web interface",
   "category": ["Utilities"],
   "repository": "https://github.com/RiDDiX/mos-file-browser",
   "architecture": ["amd64", "arm64"],
+  "driver": false,
   "icon": "https://raw.githubusercontent.com/RiDDiX/mos-file-browser/master/icon.png",
   "author": "RiDDiX",
   "homepage": "https://riddix.de",
   "support": "https://github.com/RiDDiX/mos-file-browser/issues",
-  "donate": ""
+  "donate": "https://github.com/sponsors/RiDDiX"
 }

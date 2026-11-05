@@ -1,0 +1,13 @@
+{
+  "name": "ulrmm",
+  "description": "UniversalLocal RMM: remote monitoring and management for Windows, Linux and macOS with dashboard, API, MeshCentral, NATS, PostgreSQL and Redis. Needs three DNS names that reach this server on port 443, see .env.",
+  "category": ["Monitoring", "Network"],
+  "architecture": ["amd64", "arm64"],
+  "icon": "https://raw.githubusercontent.com/RiDDiX/mos-templates/main/images/ulrmm.png",
+  "website": "https://github.com/RiDDiX/ulrmm",
+  "repository": "https://github.com/RiDDiX/ulrmm",
+  "support": "https://github.com/RiDDiX/ulrmm/issues",
+  "readme_url": "https://github.com/RiDDiX/ulrmm#docker-compose",
+  "donate": "https://github.com/sponsors/RiDDiX",
+  "web_ui_url": "https://rmm.example.com/"
+}

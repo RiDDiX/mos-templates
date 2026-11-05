@@ -1,0 +1,95 @@
+{
+  "name": "Home-Assistant-Matter-Hub-Alpha",
+  "repo": "ghcr.io/riddix/home-assistant-matter-hub:alpha",
+  "registry": "https://github.com/RiDDiX/home-assistant-matter-hub/pkgs/container/home-assistant-matter-hub",
+  "network": "host",
+  "custom_ip": null,
+  "default_shell": "sh",
+  "privileged": false,
+  "extra_parameters": "--restart=unless-stopped",
+  "post_parameters": null,
+  "web_ui_url": "http://[ADDRESS]:[PORT:8482]/",
+  "icon": "https://raw.githubusercontent.com/RiDDiX/mos-templates/main/images/home-assistant-matter-hub.png",
+  "project": "https://riddix.github.io/home-assistant-matter-hub/",
+  "support": "https://github.com/RiDDiX/home-assistant-matter-hub/issues",
+  "donate": "https://github.com/sponsors/RiDDiX",
+  "description": "Home-Assistant-Matter-Hub (HAMH) publishes Home Assistant entities as Matter devices, so Apple Home, Google Home, Alexa and other Matter controllers can use them. Alpha release (tag alpha): gets every fix and feature first and may break. Keeps its data apart from the stable template. Run only one of the two, both use port 8482 and the Matter ports on the host network.",
+  "category": ["Home Automation"],
+  "paths": [
+    {
+      "name": "Data",
+      "host": "/mnt/cache/appdata/home-assistant-matter-hub-alpha",
+      "container": "/data",
+      "mode": "rw",
+      "description": "Bridges, pairings and settings",
+      "required": true,
+      "display": "always",
+      "default": null
+    }
+  ],
+  "ports": [],
+  "variables": [
+    {
+      "name": "Home Assistant URL",
+      "key": "HAMH_HOME_ASSISTANT_URL",
+      "value": null,
+      "description": "URL of your Home Assistant, e.g. http://192.168.1.10:8123",
+      "required": true,
+      "mask": false,
+      "display": "always",
+      "default": null
+    },
+    {
+      "name": "Access token",
+      "key": "HAMH_HOME_ASSISTANT_ACCESS_TOKEN",
+      "value": null,
+      "description": "Long-lived access token, created in Home Assistant under your profile, Security tab",
+      "required": true,
+      "mask": true,
+      "display": "always",
+      "default": null
+    },
+    {
+      "name": "mDNS interface",
+      "key": "HAMH_MDNS_NETWORK_INTERFACE",
+      "value": null,
+      "description": "LAN interface of this server, e.g. eth0 or br0. Leave empty unless controllers show the devices as offline.",
+      "required": false,
+      "mask": false,
+      "display": "always",
+      "default": null
+    },
+    {
+      "name": "Web UI user",
+      "key": "HAMH_HTTP_AUTH_USERNAME",
+      "value": null,
+      "description": "Basic auth for the web UI, off while user or password is empty",
+      "required": false,
+      "mask": false,
+      "display": "advanced",
+      "default": null
+    },
+    {
+      "name": "Web UI password",
+      "key": "HAMH_HTTP_AUTH_PASSWORD",
+      "value": null,
+      "description": "Password for the web UI user",
+      "required": false,
+      "mask": true,
+      "display": "advanced",
+      "default": null
+    },
+    {
+      "name": "Log level",
+      "key": "HAMH_LOG_LEVEL",
+      "value": "info",
+      "description": "silly, debug, info, notice, warn, error or fatal",
+      "required": false,
+      "mask": false,
+      "display": "advanced",
+      "default": null
+    }
+  ],
+  "devices": [],
+  "labels": []
+}
